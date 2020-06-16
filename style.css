@@ -1,21 +1,14 @@
 #div1 img{
- display: flex;
  padding: 10px;
- width: 75%;
+ width: 25%;
 }
 
 /* Container holding the image and the text */
 .container {
+    flex-wrap: wrap;
+    display: flex;
     position: relative;
     text-align: center;
     color: white;
   }
   
-  
-  /* Centered text */
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 38%;
-    transform: translate(-50%, -50%);
-  }
